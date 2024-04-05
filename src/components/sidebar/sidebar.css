@@ -1,0 +1,48 @@
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+  background-color: #f8f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+.sidebarPallete {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+.palleteTitle {
+  color: #979a9a;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.palleteBox {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #626567;
+  font-weight: 500;
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+}
+.palleteBox.active,
+.palleteBox:hover {
+  background-color: #e5e7e7;
+
+  border-radius: 20px;
+}
+.palleteIcon {
+  font-size: 20px !important;
+}
+.palleteText {
+  font-size: 14px;
+}
+

@@ -1,0 +1,43 @@
+.featureInfo {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+}
+.infoItems {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.infoTitle {
+  font-size: 22px;
+  font-weight: 400;
+}
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.infoMoney {
+  font-size: 28px;
+  font-weight: 700;
+}
+.infoRate {
+  margin-left: 30px;
+  font-size: 14px;
+}
+.infoIcon {
+  font-size: 14px !important;
+  color: red;
+}
+.infoDesc {
+  font-size: 14px;
+  color: #979a9a;
+}

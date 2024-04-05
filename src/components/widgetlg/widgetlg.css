@@ -1,0 +1,63 @@
+.widgetLarge {
+  flex: 2;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  margin: 20px;
+}
+.lgTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+.lgTr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 117px;
+  font-weight: 700;
+  font-style: 15px;
+  margin-top: 20px;
+}
+.lgUl {
+  width: 100%;
+  margin-top: 20px;
+  list-style: none;
+}
+.lgDt {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  font-size: 15px;
+}
+.lgProfile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.lgImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.lgPrflName {
+  font-weight: 500;
+}
+.lgBtn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: lightgray;
+}
+.lgBtn.Approved {
+  background-color: lightgreen;
+}
+.lgBtn.Pending {
+  background-color: rgb(240, 224, 137);
+}
+.lgBtn.Declined {
+  background-color: lightcoral;
+}

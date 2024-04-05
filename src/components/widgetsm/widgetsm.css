@@ -1,0 +1,56 @@
+.widgetSmall{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.smWidgetTitle{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.widgetList{
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+.widgetListItems{
+
+    display: flex;
+    align-items: center;
+   gap: 40px;
+   margin: 20px 0;
+ 
+}
+.widgetPrflImg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.widgetprflInfo{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.prflname{
+    font-weight: 500;
+}
+.prflworkinfo{
+    color: gray;
+}
+.smIcon{
+    font-size: 16px !important;
+}
+.smWidgetBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: #BDC3C7;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
